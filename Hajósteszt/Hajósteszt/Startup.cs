@@ -28,7 +28,12 @@ namespace Hajósteszt
 
             app.UseHttpsRedirection();
 
-            app.UseDefaultFiles();
+            DefaultFilesOptions options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("cv.html");
+
+
+            app.UseDefaultFiles(options);
             app.UseStaticFiles();
 
             app.UseRouting();
