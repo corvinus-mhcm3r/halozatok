@@ -1,0 +1,40 @@
+﻿html, body {
+}
+
+div{
+    margin:10px;
+    border: 1px red;
+}
+#külső{
+    border:2px red;
+    margin:100%;
+    display:flex;
+}
+
+#kérdés_szöveg{
+
+}
+
+#középső{
+
+}
+
+#vezérlő{
+
+}
+
+#válaszok{
+
+}
+
+#kép{
+
+}
+
+.gomb{
+
+}
+
+.kerdes{
+
+}
