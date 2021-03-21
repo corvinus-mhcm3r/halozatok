@@ -9,7 +9,7 @@ div{
 #külső{
     height: 100%;
     display: flex;
-    flex-diretion: column;
+    flex-direction: column;
 }
 
 #kérdés_szöveg{
