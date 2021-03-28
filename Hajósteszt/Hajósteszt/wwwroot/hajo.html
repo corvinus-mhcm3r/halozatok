@@ -3,8 +3,23 @@
 <head>
     <meta charset="utf-8" />
     <title>Hajó</title>
+    <link href="stilus.css" rel="=stylesheet" />
+    <script src="hetedik.js"></script>
 </head>
 <body>
+    var kérdések;
+    <script>
+        fetch('/questions.json')
+            .then(response => response.json())
+            .then(data => letöltésBefejezdődött(data));
+
+        function letöltésBefejeződött(d) {
+            console.log("Sikeres letöltés")
+            console.log(d)
+            kérdések = d;
+        }
+    </script>
+
     <div id="külső">
         <div id="kérdés_szöveg">
             Kérdés szövege
