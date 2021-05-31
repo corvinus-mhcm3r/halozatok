@@ -13,7 +13,8 @@ div{
 }
 
 #kérdés_szöveg{
-
+    display: flex;
+    height: auto;
 }
 
 #középső{

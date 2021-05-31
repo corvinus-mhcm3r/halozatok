@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 
 namespace Hajósteszt.wwwroot
 {
+    var kérdések;
+
     public class hetedik
     {
-        
+       
 
     
     }
