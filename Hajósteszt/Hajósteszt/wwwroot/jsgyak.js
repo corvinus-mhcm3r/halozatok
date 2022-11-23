@@ -13,5 +13,6 @@
             sor.appendChild(szám);
         }
     }
+
 }
 
