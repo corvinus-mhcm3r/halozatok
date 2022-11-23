@@ -9,7 +9,7 @@
 
         for (var o = 0; o < s; o++) {
             let szám = document.createElement("div");
-            szám.innerText = (s + 1) * (o + 1)
+            szám.innerText = (s) * (o)
             sor.appendChild(szám);
         }
     }
